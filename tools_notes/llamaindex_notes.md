@@ -57,6 +57,28 @@ Can build vector index over node & document
 
 
 ## Ingestion Pipeline
-- a series of `Transformations`
-- gives you nodes, returned directly or stored to a vector store
+- a series of `Transformations`, inputted as a list
+- gives you nodes, returned directly or stored to a vector store, specify a vector store for this
 - kind of like mongodb aggregation?
+- use document store for duplication checks. 
+
+## Indexing
+### VectorStoreIndex
+- build over documents and nodes
+
+## Storing
+### Common stores
+- document store
+- index store (metadata)
+- vector store
+
+### Persisting data
+- data stored in memory by default
+- use storage context and specify a path to persist
+
+### Storage Context
+
+
+## Table Query
+
+## Query Pipeline
